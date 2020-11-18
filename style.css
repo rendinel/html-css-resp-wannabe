@@ -82,6 +82,10 @@ img {
     width: 100%;
   }
 
+  #lezioni .row>.left {
+    margin-bottom: 30px;
+  }
+
   .row {
     width: 100%;
   }
@@ -93,10 +97,45 @@ img {
     width: 100%;
   }
 
+  #steps .row>.left,
+  #steps .row>.central {
+    margin-bottom: 30px;
+  }
+
+}
+
+@media screen and (min-width: 420px) and (max-width: 720px)  {
+
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    float: none;
+    width: 100%;
+  }
+
+  #lezioni .row>.left {
+    margin-bottom: 30px;
+  }
+
+  .row {
+    width: 100%;
+  }
+
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    float: none;
+    width: 100%;
+  }
+
+  #steps .row>.left,
+  #steps .row>.central {
+    margin-bottom: 30px;
+  }
+
 }
 
 
-/* media quey end */
+/* media query end */
 
 
 /* media quey end */
