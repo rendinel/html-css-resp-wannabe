@@ -73,17 +73,30 @@ img {
 }
 
 /* media query start */
-@media screen and (min-width: 420px)  {
+/* media query start */
+@media screen and (max-width: 420px)  {
 
-  .left{
+  #lezioni .row>.left,
+  #lezioni .row>.right {
     float: none;
+    width: 100%;
   }
 
-  .right{
-    float:none;
+  .row {
+    width: 100%;
+  }
+
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    float: none;
+    width: 100%;
   }
 
 }
+
+
+/* media quey end */
 
 
 /* media quey end */
